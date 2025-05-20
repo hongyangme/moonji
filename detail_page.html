@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도서 정보 상세보기</title>
+        <link rel="stylesheet" href="./css/detail_page.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/detail_page.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="header_wrap">
+                <h1 class="logo_h">
+                    <a href="./index.html">
+                        <img src="./img/icon/logo.png" alt="로고">
+                    </a>
+                </h1>
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="#">문학과지성사</a>
+                            <ul class="submenu">
+                                <li><a href="#">출판사 소개</a></li>
+                                <li><a href="#">발자취</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./detail_page.html">도서</a>
+                            <ul class="submenu">
+                                <li><a href="./detail_page.html">전체 도서</a></li>
+                                <li><a href="./detail_page.html">수상 도서</a></li>
+                                <li><a href="./detail_page.html">추천 도서</a></li>
+                                <li><a href="./detail_page.html">전자책</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">문학과사회</a>
+                            <ul class="submenu">
+                                <li><a href="#">문학과사회 목록</a></li>
+                                <li><a href="#">정기구독 신청</a></li>
+                                <li><a href="#">PDF 서비스</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">문지문학상</a>
+                            <ul class="submenu">
+                                <li><a href="#">문지문학상</a></li>
+                                <li><a href="#">마해송문학상</a></li>
+                                <li><a href="#">문학과사회 신인문학상</a></li>
+                                <li><a href="#">이산문학상</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">커뮤니티</a>
+                            <ul class="submenu">
+                                <li><a href="#">알립니다</a></li>
+                                <li><a href="#">자주 묻는 질문</a></li>
+                            </ul>
+                        </li>
+                        <div class="submenu_wrap">
+                        </div>
+                    </ul>
+                </nav>
+                <div class="search_box">
+                    <input type="text" name="seacrh">
+                    <button>
+                        <img src="./img/icon/search.svg" alt="search">
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main_wrap">
+                <div class="book_img_box">
+                    <img src="./img/main/책1.png" alt="책1">
+                </div>
+                <div class="detail_box">
+                    <div class="book_info">
+                        <span>문학과지성 시인선 608</span>
+                        <h2>사랑과 멸종을 바꿔 읽어보십시오</h2>
+                        <div class="grid_box">
+                            <p class="grid_text">저자</p>
+                            <p class="grid_info">윤선혜</p>
+                            <p class="grid_text">출판사</p>
+                            <p class="grid_info">문학과지성사</p>
+                            <p class="grid_text">발행일</p>
+                            <p class="grid_info">2024년 10월 28일</p>
+                        </div>
+                        <div class="grid_box">
+                            <p class="grid_text">사양</p>
+                            <p class="grid_info">변형판 128x205 · 170쪽</p>
+                            <p class="grid_text">ISBN</p>
+                            <p class="grid_info">9788932043272</p>
+                            <p class="grid_text">분야야</p>
+                            <p class="grid_info">문학과지성 시인선, 시</p>
+                        </div>
+                        <div class="grid_box_2">
+                            <p class="grid_text">정가</p>
+                            <p class="grid_info"><span>12,000</span> 원</p>
+                            <p class="grid_text">구매 링크</p>
+                            <div class="grid_info_2">
+                                <a href="#" class="direct_btn">
+                                    <p>알라딘</p>
+                                    <img src="./img/icon/arrow_more_thin.svg" alt="알라딘">
+                                </a>
+                                <a href="#" class="direct_btn">
+                                    <p>YES24</p>
+                                    <img src="./img/icon/arrow_more_thin.svg" alt="YES24">
+                                </a>
+                                <a href="#" class="direct_btn">
+                                    <p>교보문고</p>
+                                    <img src="./img/icon/arrow_more_thin.svg" alt="교보문고">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab_box">
+                        <ul class="tabs">
+                            <li class="active"><a>도서 소개</a></li>
+                            <li><a>목차</a></li>
+                            <li><a>작가 소개</a></li>
+                        </ul>
+                        <hr>
+                        <div class="tab_content active">
+                            <p><b>“우리의 언어는 멸종에 관한 것이었는지 사랑에 관한 것이었는지”
+
+                                끝을 상정하는 사랑의 위기 속에서
+                                오늘도 힘껏 멸종해, 너를 멸종해
+
+                                사랑의 화석을 더듬는 멸종의 고고학
+                                유선혜 첫 시집 출간
+                            </b>
+                            2022년 『현대문학』 신인추천을 통해 작품 활동을 시작한 유선혜의 첫 시집 『사랑과 멸종을 바꿔 읽어보십시오』가 문학과지성 시인선 608번으로 출간되었다. “지금 여기 이곳에 발 딛고 서 있으면서 보고 듣고 만지고자 하는 열정”(심사평)으로 써 내려간 시 43편을 총 4부로 나눠 묶었다.
+                            
+                            <span>공룡은 운석 충돌로 사랑했다고 추정된다
+                                현재 사랑이 임박한 생물은 5백 종이 넘는다
+                                우리 모두 사랑 위기종을 보호합시다
+                                어젯밤 우리가 멸종의 말을 속삭이는 장면
+                                아주 조심스럽게
+                                멸종해, 나의 멸종을 받아줘
+                                우리가 딛고 있는 행성, 멸종의 보금자리에서
+                                공룡들은 사랑했다 번식했다 그리하여 멸종했다
+                                어린아이들은 사랑한 공룡들의 이름을 외우고
+                                분류하고 그려내고 상상하고 그리워하고 아이들은 멸종하고
+
+                                ―「사랑과 멸종을 바꿔 읽어보십시오」 부분
+                            </span>
+                                표제작 「사랑과 멸종을 바꿔 읽어보십시오」에서 시인은 ‘사랑’과 ‘멸종’의 자리를 고정해놓지 않는데, 이에 따라 시어의 위치를 부러 바꿔 읽다 보면 언뜻 서로 연관이 없어 보이는 둘 사이의 접점을 발견할 수 있다. 사랑이란 “이별이라는 단어를/이해해본 적 없다는 듯이/끝을 상상하는 능력을 모두 잃은”(「빈맥」) 감정이기도 하지만, “싱거운 미래”(「우리의 아이는 혼자서 낳고 싶다」)조차 기대하기 어려운 요즈음에는 차라리 “끝으로 간다는 것에 대해/그러나 끝나지 않는다는 것에 대해” 생각하는 “리미트 영의 마음”(「영으로 갈 때」)에 가깝기 때문이다.
+
+                                하지만 끝을 전제하게 되었다고 해서 사랑을 멈추거나 포기할 수 있는 것은 아니다. “흐릿한 마음”일지언정 그것을 “우리가 읽을 수 있다는 사실은/여전히/여전하”고 “서로를 흐린 눈으로 바라보는” 일은 “우리의 임무”(「그게 우리의 임무지」)이므로 사랑은 계속된다. 마치 “고고학자”처럼, “운석이 떨어지기까지 어떤 비밀스러운 일들이 벌어졌는지 말해주지 않”(「뼈의 음악」)을지라도 지금껏 사랑하다 멸종해간 존재들이 남긴 뼛조각을 추스르는 데 골몰하며, 결국 우리는 멸종할 때까지 “사랑에 대해 아무것도 모르면서/사랑해,라고 발음하는 수밖에 없다”(「마녀와 로봇의 사랑」). 이 시집은 바로 유선혜의 목소리가 처음 전하는 사랑과 멸종의 발화이다.
+                            </p>
+                        </div>
+                        <div class="tab_content">
+                            <p><b>시인의 말</b>
+
+                        1부
+                        괄호가 사랑하는 구멍 | 내 여자친구를 소개합니다 | 흑백 방의 메리 | 하얀 방 | 혼자 있는 사람 | Nirvana | 마주 보지 않고 | 사이비 리듬 | 물어뜯기 | 영으로 갈 때 | 반납 예정일 | 제2외국어 | 그게 우리의 임무지
+                        
+                        2부
+                        사랑과 멸종을 바꿔 읽어보십시오 | 뼈의 음악 | 어떤 마음을 가진 공룡이 | 지질시대 | 징그럽게 웃는 연습 | 마녀와 로봇의 사랑 | 원룸에서 추는 춤 | 잡종의 별자리 | 멸종의 댄스 | 아쿠아리움 | 영생의 굴 | 까마귀의 역설
+                        
+                        3부
+                        빈맥 | 아빠가 빠진 자리 | 일란성 슬픔 쌍둥이 슬픔 | 우리의 아이는 혼자서 낳고 싶다 | 우리는 못 말려 | 왜냐하면 그 상자는 비어 있을 수도 있기 때문이다 | 청춘 리스트 | Principle of Sufficient Reason | 밤무대 | 어느 트로트 경연 프로그램의 심사평 | 줌바 버전 | 집단 상담 | 너는 대숲에 왔다 | 폭탄이 불량이 아니라는 사실은
+                        
+                        4부
+                        비어 있는 방 | 충돌에 관한 사고실험 | 악의 문제 | 구멍의 존재론
+                        
+                        해설
+                        ‘철학적으로 청소된’ 영혼의 문장들 · 조연정</p>
+                        </div>
+                        <div class="tab_content">
+                            <p>시인 유선혜는 2022년 『현대문학』 신인추천을 통해 작품 활동을 시작했다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer_left">
+                <div class="footer_left_box">
+                    <h4>
+                        <a href="./index.html">
+                            <img src="./img/icon/logo_f.png" alt="로고_하단">
+                        </a>
+                    </h4>
+                    <div class="footer_nav">
+                        <a href="#">(주)문학과지성사</a>
+                        <span> | </span>
+                        <a href="#">개인정보처리방침</a>
+                        <span> | </span>
+                        <a href="#">이용약관</a>
+                    </div>
+                    <div class="copyright">
+                        <p>대표: 이광호 | 주소: 서울시 마포구 잔다리로 7길 18 | 사업자번호: 105-81-61771
+                            통신판매업신고: 2014-서울마포-1138 | 02.338.7224 | moonji@moonji.com
+
+                            © 2018 Moonji Publishing Co.,Ltd. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_right">
+                <div class="footer_right_box">
+                    <a href="#" class="footer_brand">(주)문학과지성사 브랜드</a>
+                    <a href="#" class="footer_page">
+                        <p>문지아이들 홈페이지</p>
+                        <img src="./img/icon/arrow_more_thin.svg" alt="바로가기">
+                    </a>
+                    <a href="#" class="footer_page">
+                        <p>문지푸른책 홈페이지</p>
+                        <img src="./img/icon/arrow_more_thin.svg" alt="바로가기">
+                    </a>
+                    <div class="footer_sns">
+                        <a href="#"><img src="./img/icon/facebook.png" alt="페이스북"></a>
+                        <a href="#"><img src="./img/icon/insta.png" alt="인스타그램"></a>
+                        <a href="#"><img src="./img/icon/x.png" alt="엑스"></a>
+                        <a href="#"><img src="./img/icon/youtube.png" alt="유튜브"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
